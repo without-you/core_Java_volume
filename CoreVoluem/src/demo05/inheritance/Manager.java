@@ -18,6 +18,10 @@ public class Manager extends Employee{
         return super.getSalary()+bonus;
     }
 
+    public Double getBonus() {
+        return bonus;
+    }
+
     public void setBonus(Double bonus) {
         this.bonus = bonus;
     }

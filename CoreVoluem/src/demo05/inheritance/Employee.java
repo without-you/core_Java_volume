@@ -14,10 +14,23 @@ public class Employee {
     public Employee() {
     }
 
+    public Employee(String name) {
+        this.name = name;
+    }
+
     public Employee(String name, Double salary, LocalDate localDate) {
         this.name = name;
         this.salary = salary;
         this.localDate = localDate;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", salary=" + salary +
+                ", localDate=" + localDate +
+                '}';
     }
 
     public String getName() {
