@@ -42,7 +42,7 @@ public class DownstreamCollectors {
 
     public static Stream<City> readCities(String filename) throws IOException
     {
-        return Files.lines(Paths.get(filename))
+        return Files.lines(Paths.get("E:/Git/GitHub/CoreJavaVolume/core_Java_volume/CoreVoluem/src/secodVolume/demo01/collecting/"+filename))
                 .map(l -> l.split(", "))
                 .map(a -> new City(a[0], a[1], Integer.parseInt(a[2])));
     }
