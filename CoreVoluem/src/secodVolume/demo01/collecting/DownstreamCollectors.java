@@ -1,5 +1,6 @@
 package secodVolume.demo01.collecting;
 
+import static java.util.stream.Collectors.*;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
