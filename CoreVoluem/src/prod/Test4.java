@@ -1,6 +1,6 @@
 package prod;
 
-import demo04.Employee;
+import firstVolume.demo04.Employee;
 
 /**
  * @author 烂醉花间
